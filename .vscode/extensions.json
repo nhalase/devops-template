@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "redhat.ansible",
+    "esbenp.prettier-vscode",
+    "foxundermoon.shell-format",
+    "dakara.transformer",
+    "EditorConfig.EditorConfig",
+    "tumido.cron-explained",
+    "hashicorp.terraform",
+    "gamunu.opentofu",
+    "redhat.vscode-yaml",
+    "wholroyd.jinja"
+  ]
+}

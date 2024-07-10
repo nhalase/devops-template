@@ -1,0 +1,48 @@
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+insert_final_newline = false
+trim_trailing_whitespace = true
+
+[Vagrantfile]
+indent_size = 2
+insert_final_newline = true
+
+[*.{json,json5,jsonc}]
+indent_size = 2
+insert_final_newline = true
+
+[*.{yml,yaml}]
+indent_size = 2
+insert_final_newline = true
+
+[*.yaml.j2]
+insert_final_newline = true
+
+[*.md]
+insert_final_newline = true
+trim_trailing_whitespace = false
+
+[*.{xml,config}]
+insert_final_newline = true
+indent_size = 2
+
+[*.{cmd,bat}]
+insert_final_newline = true
+end_of_line = crlf
+
+[*.{sh,zsh,bash}]
+insert_final_newline = true
+end_of_line = lf
+
+[{.vault_password,.vault_password.sample}]
+insert_final_newline = false
+
+[*.{secret,secret.sample}]
+insert_final_newline = false
+
+[*.{password,password.sample}]
+insert_final_newline = false
